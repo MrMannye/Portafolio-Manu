@@ -1,8 +1,9 @@
 import { AcademicCapIcon } from "@heroicons/react/solid"
+import VoxelDog from "./voxel-dog"
 
 function Index() {
     return (
-        <div className='grid grid-cols-3'>
+        <div className='grid grid-cols-3 max-w-6xl'>
             <div className='col-start-1 z-10 col-span-1 space-y-6 flex flex-col justify-center ml-10 -mr-20'>
                 <h1 className='text-4xl font-bold'>Hola Tu!</h1>
                 <p className='tracking-wider'>
@@ -17,7 +18,7 @@ function Index() {
                 </div>
             </div>
             <div className='col-start-2 col-span-2'>
-                {/* <img src="/example.jpg" alt="Imgen Home" className="rounded-lg w-full"/> */}
+                <VoxelDog></VoxelDog>
             </div>
         </div>
     )
