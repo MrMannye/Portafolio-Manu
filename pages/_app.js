@@ -1,12 +1,15 @@
 import 'tailwindcss/tailwind.css'
 import {ThemeProvider} from 'next-themes'
 import Layout from '../components/Layout'
+import {AnimatePresence} from 'framer-motion'
 
 function MyApp({ Component, pageProps }) {
   return( 
     <ThemeProvider enableSystem={false} attribute='class'>
       <Layout>
-        <Component {...pageProps} />
+        <AnimatePresence exitBeforeEnter initial={true}>
+          <Component {...pageProps}/>
+        </AnimatePresence>
       </Layout>
     </ThemeProvider> 
   )}
