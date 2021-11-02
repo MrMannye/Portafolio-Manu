@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+
+@layer base { 
+    body{
+        @apply dark:bg-gray-900 dark:text-gray-100 bg-gray-50 transition-all duration-400 ease-in
+    }
+}
