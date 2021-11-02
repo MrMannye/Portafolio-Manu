@@ -16,7 +16,7 @@ export default function Home() {
         <title>Portafolio Manu</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='flex flex-col justify-center items-center my-8'>
+      <div className='flex flex-col justify-center items-center ml-10 my-8'>
         <Index></Index>
       </div>
     </motion.div>

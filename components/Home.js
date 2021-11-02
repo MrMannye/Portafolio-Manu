@@ -4,7 +4,7 @@ import VoxelDog from "./voxel-dog"
 function Index() {
     return (
         <div className='grid grid-cols-3 max-w-6xl'>
-            <div className='col-start-1 z-10 col-span-1 space-y-6 flex flex-col justify-center ml-10 -mr-20'>
+            <div className='col-start-1 z-10 col-span-1 space-y-6 flex flex-col justify-center ml-10 -mr-32'>
                 <h1 className='text-4xl font-bold'>Hola Tu!</h1>
                 <p className='tracking-wider'>
                     Mi nombre es Miguel Aguilera y soy un desarrollador Frontend y Backend.
@@ -17,7 +17,7 @@ function Index() {
                     </button>
                 </div>
             </div>
-            <div className='col-start-2 col-span-2'>
+            <div className='col-start-2 col-span-2 -mr-10'>
                 <VoxelDog></VoxelDog>
             </div>
         </div>
