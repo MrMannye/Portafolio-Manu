@@ -45,7 +45,7 @@ const VoxelDog = () => {
                 alpha: true
             })
             renderer.setPixelRatio(window.devicePixelRatio)
-            renderer.setSize(scW, scH)
+            renderer.setSize(700, 500)
             renderer.outputEncoding = THREE.sRGBEncoding
             container.appendChild(renderer.domElement)
             setRenderer(renderer)
@@ -121,7 +121,7 @@ const VoxelDog = () => {
     }, [renderer, handleWindowResize])
 
     return (
-        <div className='m-auto relative h-80 w-3/4' ref={refContainer}></div>
+        <div className='flex items-center justify-center relative h-80 w-full' ref={refContainer}></div>
     )
 }
 
