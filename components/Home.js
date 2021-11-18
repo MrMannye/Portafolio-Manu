@@ -23,7 +23,7 @@ function Index() {
                     </div>
                     <p className='tracking-wider'>
                         Mi nombre es Miguel Aguilera y soy un desarrollador Frontend y Backend.
-                        Actualmente estoy cursando mi 4to semestre en la escuela Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas
+                        Actualmente estoy cursando mi 4to semestre en la Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas
                     </p>
                 </div>
             </div>

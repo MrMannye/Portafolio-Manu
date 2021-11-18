@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Index from '../components/Home'
 import {motion} from 'framer-motion'
+import About from '../components/About'
 
 export default function Home() {
   return (
@@ -16,9 +17,10 @@ export default function Home() {
         <title>Portafolio Manu</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className='flex flex-col justify-center items-center ml-10 my-8'>
+      <div className='flex flex-col justify-center items-center ml-10 mt-8'>
         <Index></Index>
       </div>
+      <About></About>
     </motion.div>
   )
 }
