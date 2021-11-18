@@ -10,7 +10,7 @@ function Card({image, title, lenguage,text}) {
                 </blockquote>
                 <figcaption class="font-medium">
                     <div class="text-cyan-600">
-                        {title}
+                        <a href="#" className='outline-none hover:text-sm transition-all'>{title}</a>
                     </div>
                     <div class="text-blue-600 dark:text-green-600">
                         {lenguage}

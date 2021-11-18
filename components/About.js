@@ -3,8 +3,8 @@ import Card from './Card'
 
 export default function About() {
     return (
-        <div className='flex -mt-36'>
-            <div className='flex-1 items-center justify-center p-12'>
+        <div className='flex'>
+            <div className='flex-1 items-center justify-center p-10'>
                 <Card 
                     image='/profilepic.jpg' 
                     title='Netflix-Clone' 
@@ -13,7 +13,7 @@ export default function About() {
                 >
                 </Card>
             </div>
-            <div className='flex-1 items-center justify-center p-12'>
+            <div className='flex-1 items-center justify-center p-10'>
                 <Card 
                     image='/profilepic.jpg' 
                     title='Google-Clone' 
@@ -21,7 +21,7 @@ export default function About() {
                     text='Proyecto Clone de la Pagina Oficial de Netflix usando NextJS'
                 ></Card>
             </div>
-            <div className='flex-1 items-center justify-center p-12'>
+            <div className='flex-1 items-center justify-center p-10'>
                 <Card 
                     image='/profilepic.jpg' 
                     title='Google-Docs' 
