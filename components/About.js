@@ -1,4 +1,3 @@
-import Avatar from './Avatar'
 import Card from './Card'
 
 export default function About() {

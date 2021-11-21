@@ -4,6 +4,12 @@
 
 @layer base { 
     body{
-        @apply flex flex-col max-h-screen dark:bg-gray-900 dark:text-gray-100 bg-gray-50 dark:transition-all dark:duration-400
+        @apply flex flex-col max-h-screen dark:bg-gray-900 dark:text-gray-100 bg-gray-50 dark:transition-all
+    }
+}
+
+@layer components{
+    .skills__percentage{
+        @apply bg-gradient-to-r from-blue-500 to-green-400 block
     }
 }

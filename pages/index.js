@@ -1,7 +1,9 @@
 import Head from 'next/head'
 import Index from '../components/Home'
 import {motion} from 'framer-motion'
+import Section from '../components/Section'
 import About from '../components/About'
+import Skills from '../components/Skills'
 
 export default function Home() {
   return (
@@ -16,17 +18,22 @@ export default function Home() {
       <Head>
         <title>Portafolio Manu</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></link>
       </Head>
       <div className='flex flex-col justify-center items-center ml-10 mt-8'>
         <Index></Index>
       </div>
-      <div className='-mt-20'>
-        <h1 className='px-12 mb-1 italic text-3xl font-black font bg-gradient-to-r from-blue-500 to-green-400 text-transparent bg-clip-text'>Works</h1>
-        <div className='mx-12 h-2 w-2/6 rounded-full bg-gradient-to-r from-blue-500 to-green-400'>
-          <span className='text-transparent'>Hola</span>
-        </div>
-        <About></About>
-      </div>
+
+      <Section title='Skills'>
+        <Skills/>
+      </Section>
+
+
+      <Section title='Works'>
+        <About/>
+      </Section>
+
+
       
     </motion.div>
   )
