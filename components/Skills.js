@@ -2,13 +2,26 @@ import { useState } from "react";
 
 export default function Skills() {
 
+    const [open, setOpen] = useState(false);
+    const [backend, setBackend] = useState(false);
+    const [designer, setDesigner] = useState(false);
+
+    const openData = () => {
+        setOpen(!open);
+    }
+    const openBackend = () => {
+        setBackend(!backend);
+    }
+    const openDesigner = () => {
+        setDesigner(!designer);
+    }
 
     return (
         <section className='skills section'>
             <div className="skills__container container">
                 <div>
                     {/* SKILLS 1 */}
-                    <div className={`skills__content ${open && `skills__open`}`} onClick={() => openData()}>
+                    <div className={`skills__content ${open ? `skills__open` : `skills__close`}`} onClick={() => openData()}>
                         <div className="skills__header">
                             <i className="uil uil-brackets-curly skills__icon"></i>
 
@@ -58,7 +71,7 @@ export default function Skills() {
                         </div>
                     </div>
                     {/* SKILLS 2 */}
-                    <div className="skills__content skills__close">
+                    <div className={`skills__content ${backend ? `skills__open` : `skills__close`}`} onClick={() => openBackend()}>
                         <div className="skills__header">
                             <i className="uil uil-server-network skills__icon"></i>
 
@@ -111,7 +124,7 @@ export default function Skills() {
 
                 <div>
                     {/* SKILLS 3 */}
-                    <div className="skills__content skills__close">
+                    <div className={`skills__content ${designer ? `skills__open` : `skills__close`}`} onClick={() => openDesigner()}>
                         <div className="skills__header">
                             <i className="uil uil-swatchbook skills__icon"></i>
 
