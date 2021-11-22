@@ -2,8 +2,9 @@ import Head from 'next/head'
 import Index from '../components/Home'
 import { motion } from 'framer-motion'
 import Section from '../components/Section'
-import About from '../components/About'
+import Works from '../components/Works'
 import Skills from '../components/Skills'
+import About from '../components/About'
 
 export default function Home() {
   return (
@@ -24,6 +25,12 @@ export default function Home() {
         <Index></Index>
       </div>
 
+
+      {/* Seccion sobre mi */}
+      <Section title='About' id='about'>
+        <About/>
+      </Section>
+
       {/* Seccion de Habilidades */}
       <Section title='Skills' id='skills'>
         <Skills />
@@ -31,9 +38,8 @@ export default function Home() {
 
       {/* Seccion de Trabajos Realizados */}
       <Section title='Works' id='works'>
-        <About />
+        <Works />
       </Section>
-
 
 
     </motion.div>

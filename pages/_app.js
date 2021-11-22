@@ -2,7 +2,7 @@ import 'tailwindcss/tailwind.css'
 import {ThemeProvider} from 'next-themes'
 import Layout from '../components/Layout'
 import {AnimatePresence} from 'framer-motion'
-import '../styles/Skills.css'
+import '../styles/Styles.css'
 import '../styles/global.css'
 
 function MyApp({ Component, pageProps }) {
