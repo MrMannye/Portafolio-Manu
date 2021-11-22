@@ -22,8 +22,15 @@
     --z-modal: 1000;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .skills{
     margin-top: 2rem;
+}
+.skills__content{
+    transition: all .4s ease-in-out;
 }
 
 .skills__container{
@@ -39,7 +46,7 @@
 
 .skills__icon, .skills__arrow{
     font-size: 2rem;
-    color: blue;
+    color: white;
 }
 .skills__icon{
     margin-right: 0.75rem;
@@ -47,10 +54,11 @@
 
 .skills__title{
     font-size: 1.125rem;
+    font-weight: 700;
 }
 
 .skills__subtitle{
-    font-size: .813rem;
+    font-size: .850rem;
 }
 
 .skills__arrow{
@@ -71,7 +79,7 @@
 
 .skills__name{
     font-size: .938rem;
-    font-weight: 200;
+    font-weight: 400;
 }
 
 .skills__bar,
@@ -117,6 +125,15 @@
 .skills__photoshop{
     width: 70%;
 }
+.skills__canva{
+    width: 70%;
+}
+.skills__seo{
+    width: 70%;
+}
+.skills__sem{
+    width: 70%;
+}
 
 .skills__close .skills__list{
     height: 0;
@@ -130,4 +147,14 @@
 
 .skills__open .skills__arrow{
     transform: rotate(-180deg);
+}
+
+@media screen and (min-width: 568px) {
+    .skills__container{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .skills__content{
+        margin-left: 2rem;
+    }
 }

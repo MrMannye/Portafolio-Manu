@@ -5,6 +5,7 @@ export default function Skills() {
     const [open, setOpen] = useState(false);
     const [backend, setBackend] = useState(false);
     const [designer, setDesigner] = useState(false);
+    const [marketing, setMarketing] = useState(false)
 
     const openData = () => {
         setOpen(!open);
@@ -15,10 +16,13 @@ export default function Skills() {
     const openDesigner = () => {
         setDesigner(!designer);
     }
+    const openMarketing = () => {
+        setMarketing(!marketing);
+    }
 
     return (
-        <section className='skills section'>
-            <div className="skills__container container">
+        <section className='skills flex items-center justify-center tracking-wider'>
+            <div className="skills__container grid">
                 <div>
                     {/* SKILLS 1 */}
                     <div className={`skills__content ${open ? `skills__open` : `skills__close`}`} onClick={() => openData()}>
@@ -27,7 +31,7 @@ export default function Skills() {
 
                             <div>
                                 <h1 className="skills__title">Frontend developer</h1>
-                                <span className='skills_subtitle'>More than 2 years</span>
+                                <span className='skills__subtitle'>More than 2 years</span>
                             </div>
                             <i className="uil uil-angle-down skills__arrow"></i>
                         </div>
@@ -77,7 +81,7 @@ export default function Skills() {
 
                             <div>
                                 <h1 className="skills__title">Backend developer</h1>
-                                <span className='skills_subtitle'>More than 1 years</span>
+                                <span className='skills__subtitle'>More than 1 years</span>
                             </div>
                             <i className="uil uil-angle-down skills__arrow"></i>
                         </div>
@@ -130,7 +134,7 @@ export default function Skills() {
 
                             <div>
                                 <h1 className="skills__title">Designer developer</h1>
-                                <span className='skills_subtitle'>More than 1 years</span>
+                                <span className='skills__subtitle'>More than 1 years</span>
                             </div>
                             <i className="uil uil-angle-down skills__arrow"></i>
                         </div>
@@ -160,6 +164,56 @@ export default function Skills() {
                                 </div>
                                 <div className="skills__bar">
                                     <span className="skills__percentage skills__photoshop"></span>
+                                </div>
+                            </div>
+                            <div className="skills__data">
+                                <div className="skills__titles">
+                                    <h3 className="skills__name">Canva</h3>
+                                    <span className="skills__numer">70%</span>
+                                </div>
+                                <div className="skills__bar">
+                                    <span className="skills__percentage skills__photoshop"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* SKILLS 4 */}
+                    <div className={`skills__content ${marketing ? `skills__open` : `skills__close`}`} onClick={() => openMarketing()}>
+                        <div className="skills__header">
+                            <i className="uil uil-swatchbook skills__icon"></i>
+
+                            <div>
+                                <h1 className="skills__title">Marketing</h1>
+                                <span className='skills__subtitle'>More than 1 years</span>
+                            </div>
+                            <i className="uil uil-angle-down skills__arrow"></i>
+                        </div>
+                        <div className="skills__list grid">
+                            <div className="skills__data">
+                                <div className="skills__titles">
+                                    <h3 className="skills__name">Canva</h3>
+                                    <span className="skills__numer">70%</span>
+                                </div>
+                                <div className="skills__bar">
+                                    <span className="skills__percentage skills__canva"></span>
+                                </div>
+                            </div>
+                            <div className="skills__data">
+                                <div className="skills__titles">
+                                    <h3 className="skills__name">SEO</h3>
+                                    <span className="skills__numer">70%</span>
+                                </div>
+                                <div className="skills__bar">
+                                    <span className="skills__percentage skills__seo"></span>
+                                </div>
+                            </div>
+                            <div className="skills__data">
+                                <div className="skills__titles">
+                                    <h3 className="skills__name">SEM</h3>
+                                    <span className="skills__numer">70%</span>
+                                </div>
+                                <div className="skills__bar">
+                                    <span className="skills__percentage skills__sem"></span>
                                 </div>
                             </div>
                         </div>
