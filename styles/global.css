@@ -12,4 +12,7 @@
     .skills__percentage{
         @apply bg-gradient-to-r from-blue-500 to-green-400 block
     }
+    .skills__icon, .skills__arrow{
+        @apply dark:text-white 
+    }
 }

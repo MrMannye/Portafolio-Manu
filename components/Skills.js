@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export default function Skills() {
 
@@ -6,6 +6,15 @@ export default function Skills() {
     const [backend, setBackend] = useState(false);
     const [designer, setDesigner] = useState(false);
     const [marketing, setMarketing] = useState(false)
+
+    useEffect(() => {
+        if(screen.width > 640 ){
+            setBackend(true);
+            setDesigner(true);
+            setMarketing(true);
+            setOpen(true);
+        }
+    }, [])
 
     const openData = () => {
         setOpen(!open);
