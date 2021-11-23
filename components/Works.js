@@ -2,7 +2,7 @@ import Card from './Card'
 
 export default function Works() {
     return (
-        <div className='flex'>
+        <div className='flex justify-center items-center'>
             <div className='flex-1 items-center justify-center p-10'>
                 <Card 
                     image='/img/profilepic.jpg' 

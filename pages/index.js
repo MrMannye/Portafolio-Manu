@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Head from 'next/head'
 import Index from '../components/Home'
 import { motion } from 'framer-motion'
@@ -5,8 +6,19 @@ import Section from '../components/Section'
 import Works from '../components/Works'
 import Skills from '../components/Skills'
 import About from '../components/About'
+import Contact from '../components/Contact'
 
 export default function Home() {
+
+  const [scroll, setScroll] = useState(false);
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 400) {
+        setScroll(true);
+      } else setScroll(false);
+    });
+  }, [])
+
   return (
     <motion.div
       className="flex flex-col py-2 overflow-x-hidden"
@@ -28,7 +40,7 @@ export default function Home() {
 
       {/* Seccion sobre mi */}
       <Section title='About' id='about'>
-        <About/>
+        <About />
       </Section>
 
       {/* Seccion de Habilidades */}
@@ -40,6 +52,16 @@ export default function Home() {
       <Section title='Works' id='works'>
         <Works />
       </Section>
+
+      <Section title='Contact' id='contact'>
+        <Contact></Contact>
+      </Section>
+
+      {scroll &&
+        <a href="#" className='scrollup bg-gradient-to-r from-blue-500 to-green-400 rounded-full p-2 px-3' id='scrollup'>
+          <i className='uil uil-arrow-up scrollup__icon'></i>
+        </a>
+      }
 
 
     </motion.div>

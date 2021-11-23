@@ -5,8 +5,8 @@ export default function About() {
                 <img src="/img/about.jpg" className='about__img' />
                 <div className='about__data'>
                     <p className='about__description'>
-                        Web Developer, with extensive knowledge and years of experencie, working
-                        in web Technologies, and UI / UX design, delivering quality work.
+                        Web Developer for 3 years, with extensive knowledge and years of experencie, working
+                        in web Technologies, and UI / UX design, delivering quality work. Currently working as a frontend developer for Soft Shimpony.
                     </p>
                     <div className='about__info'>
                         <div>
@@ -23,7 +23,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="about__buttons">
-                        <a href="/cv.pdf" className='about__button bg-gradient-to-r from-blue-500 to-green-400'>
+                        <a href="/CV.pdf" className='about__button bg-gradient-to-r from-blue-500 to-green-400'>
                             <i className="uil uil-download-alt about__icon"></i>
                             Download CV
                         </a>

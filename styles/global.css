@@ -1,8 +1,8 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities; 
+@tailwind utilities;
 
-@layer base { 
+@layer base {
     body{
         @apply flex flex-col max-h-screen dark:bg-black dark:text-gray-100 bg-gray-50
     }
@@ -10,9 +10,18 @@
 
 @layer components{
     .skills__percentage{
-        @apply bg-gradient-to-r from-blue-500 to-green-400 block
+        @apply bg-blue-400 block
+    }
+    .contact__label{
+        @apply dark:text-black font-semibold
+    }
+    .contact__content{
+        background-color: #C7CCD9;
     }
     .skills__icon, .skills__arrow{
-        @apply dark:text-white 
+        @apply dark:text-white
+    }
+    .contact__icon{
+        @apply dark:text-white
     }
 }
