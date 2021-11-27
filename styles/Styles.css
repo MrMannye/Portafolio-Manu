@@ -249,7 +249,41 @@ html{
     font-size: 1.6rem;
 }
 
+/* ----------PORTAFOLIO---------- */
+.portafolio{
+    margin-top: 2rem;
+}
 
+.portafolio__container{
+    overflow: initial;
+}
+.portafolio__content{
+    padding: 0 1.5rem;
+}
+
+.portafolio__img{
+    width: 265px;
+    border-radius: .5rem;
+    justify-self: center;
+}
+
+.portafolio__title{
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.portafolio__description{
+    margin-bottom: 0.75rem;
+}
+
+.portafolio__icon{
+    transition: all 0.4s;
+}
+
+.portafolio__button:hover .portafolio__icon{
+    transform: translateX(.25rem);
+}
 /* ----------CONTACT---------- */
 
 .contact__container{
