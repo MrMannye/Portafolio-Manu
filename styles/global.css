@@ -12,6 +12,9 @@
     .skills__percentage{
         @apply bg-blue-400 block
     }
+    .about__info-title{
+        @apply dark:text-white
+    }
     .contact__label{
         @apply dark:text-black font-semibold
     }
@@ -23,5 +26,8 @@
     }
     .contact__icon{
         @apply dark:text-white
+    }
+    .button{
+        @apply flex p-2 items-center bg-gradient-to-r from-blue-500 to-green-400 justify-around w-24 rounded-full
     }
 }

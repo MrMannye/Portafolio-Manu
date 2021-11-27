@@ -32,6 +32,7 @@ export default function Home() {
         <title>Portafolio Manu</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></link>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
       </Head>
       <div className='flex flex-col justify-center items-center ml-10 sm:mt-8'>
         <Index></Index>
@@ -62,7 +63,6 @@ export default function Home() {
           <i className='uil uil-arrow-up scrollup__icon'></i>
         </a>
       }
-
 
     </motion.div>
   )

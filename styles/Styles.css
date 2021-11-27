@@ -28,11 +28,23 @@ html{
 
 /* ----------ABOUT---------- */
 .about__img{
-    width: 300px;
+    width: 350px;
     border-radius: .5rem;
     justify-self: center;
     align-self: center;
     margin: 2rem 0rem;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+}
+
+.about__content{
+    position: relative;
+    margin: 0;
+}
+
+.about__bg{
+    fill: blue;
 }
 
 .about__description{
@@ -49,7 +61,7 @@ html{
 .about__info-title{
     font-size:1.5rem; 
     font-weight: 600;
-    color: white;
+    color: black;
 }
 
 .about__info-name{
@@ -68,6 +80,8 @@ html{
 }
 
 .about__button{
+    display: flex;
+    align-items: center;
     padding: 1rem;
     border-radius: .5rem;
     font-weight: 600;
@@ -76,7 +90,23 @@ html{
 .about__icon{
     margin-right: 1rem;
     font-size: 1.2rem;
+    transition: all 0.4s;
 }
+
+@keyframes about_animated {
+    0%, 100% {
+        transform: translateY(-25%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+.about__buttons:hover .about__button-icon {
+    animation: bounce 1s infinite;
+}
+
 
 /* ----------SKILS---------- */
 .skills{
@@ -224,7 +254,7 @@ html{
 
 .contact__container{
     margin-top: 1.5rem;
-    
+    row-gap: 3rem;
 
 }
 .contact__information{
@@ -233,7 +263,7 @@ html{
 }
 
 .contact__icon{
-    font-size: 1rem;
+    font-size: 2rem;
     color: black;
     margin-right: .75rem;
     margin-left: 1rem;
@@ -250,8 +280,8 @@ html{
 
 .contact__content{
     border-radius: .5rem;
-    padding: .75rem 1rem .25rem;
-    margin-bottom: 1rem;
+    padding: .5rem 1rem .20rem;
+    margin: 0.5rem;
 }
 
 .contact__buttons{
@@ -267,6 +297,7 @@ html{
     align-items: center;
     border-radius: .5rem;
     font-weight: 600;
+    margin: 0.3rem 0.3rem;
 }
 
 .contact__input{
@@ -277,6 +308,10 @@ html{
     border: none;
     outline: none;
     padding: .25rem .5rem .5rem 0;
+}
+
+.contact__button-icon{
+    margin-left: 0.5rem;
 }
 
 /* Change the white to any color ;) */
@@ -305,7 +340,8 @@ input:-webkit-autofill {
         padding-left: 2rem;
         padding-right: .7rem;
     }
-    .about__container{
+    .about__container,
+    .contact__container{
         margin-top: 2rem;
         grid-template-columns: repeat(2,1fr);
         column-gap: 5rem;
@@ -327,6 +363,11 @@ input:-webkit-autofill {
     }
 }
 
+
+@media screen and (min-width: 768px){
+    
+}
+
 /* Dispositivos largos */
 @media screen and (min-width: 1024px){
     .about__container{
@@ -336,12 +377,19 @@ input:-webkit-autofill {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
-        padding-top: 1rem;
+        padding: 3rem 0rem;
     }
     .about__img{
         width: 500px;
     }
     .about__info-title{
         font-size: 2rem;
+    }
+    .contact__inputs{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .contact{
+        margin-left: auto;
+        margin-right: auto;
     }
 }
