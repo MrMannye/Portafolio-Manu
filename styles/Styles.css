@@ -251,14 +251,15 @@ html{
 
 /* ----------PORTAFOLIO---------- */
 .portafolio{
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .portafolio__container{
     overflow: initial;
+    margin: 0 1.5rem;
 }
 .portafolio__content{
-    padding: 0 1.5rem;
+    padding: 2rem;
 }
 
 .portafolio__img{
@@ -268,8 +269,8 @@ html{
 }
 
 .portafolio__title{
-    font-size: 1.125rem;
-    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+    margin: 1rem 0rem;
     font-weight: 600;
 }
 
@@ -284,6 +285,14 @@ html{
 .portafolio__button:hover .portafolio__icon{
     transform: translateX(.25rem);
 }
+
+.swiper > .swiper-button-prev {
+    left: -.2rem;
+}
+.swiper > .swiper-button-next {
+    right: -.2rem;
+}
+
 /* ----------CONTACT---------- */
 
 .contact__container{
@@ -320,7 +329,7 @@ html{
 
 .contact__buttons{
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 }
 
@@ -353,6 +362,7 @@ input:-webkit-autofill,
 input:-webkit-autofill:hover, 
 input:-webkit-autofill:focus, 
 input:-webkit-autofill:active  {
+    box-shadow: 0 0 0 30px #C7CCD9 inset !important;
     -webkit-box-shadow: 0 0 0 30px #C7CCD9 inset !important;
 }
 
@@ -363,7 +373,8 @@ input:-webkit-autofill {
 
 /* Dispositivos Medianos */
 @media screen and (min-width: 568px) {
-    .skills__container{
+    .skills__container,
+    .portafolio__content{
         grid-template-columns: repeat(2, 1fr);
         width: 100%;
     }
@@ -395,6 +406,13 @@ input:-webkit-autofill {
     .about__data{
         margin-top: 0.5rem;
     }
+    .portafolio__data{
+        margin-left: 2rem;
+    }
+    .portafolio__content{
+        margin-bottom: 2rem;
+    }
+    
 }
 
 
@@ -425,5 +443,11 @@ input:-webkit-autofill {
     .contact{
         margin-left: auto;
         margin-right: auto;
+    }
+    .portafolio__img{
+        width: 390px;
+    }
+    .portafolio__content{
+        align-items: center;
     }
 }
