@@ -28,6 +28,6 @@
         @apply dark:text-white
     }
     .button{
-        @apply flex p-2 items-center bg-gradient-to-r from-blue-500 to-green-400 justify-around w-24 rounded-lg text-lg
+        @apply flex py-4 px-2 items-center bg-gradient-to-r from-blue-500 to-green-400 justify-around w-36 rounded-lg text-lg
     }
 }
