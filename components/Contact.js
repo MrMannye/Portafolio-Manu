@@ -1,4 +1,15 @@
+import { useState } from "react"
+import { Collapse, Card, Fade, Button } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 export default function Contact() {
+    
+    const [open, setOpen] = useState(false);
+    const [email, setEmail] = useState(false);
+    const [location, setLocation] = useState(false);
+
+
     return (
         <section className='contact'>
             <div className='contact__container container grid'>
@@ -8,6 +19,22 @@ export default function Contact() {
                         <div>
                             <h3 className="contact__title">Call Me</h3>
                             <span className='contact__subtitle'>55-6400-7133</span>
+                            <div className='mt-2'>
+                                <Button
+                                    onClick={() => setOpen(!open)}
+                                    aria-controls="example-collapse-text"
+                                    aria-expanded={open}
+                                >
+                                    Mas información
+                                </Button>
+                                <Collapse in={open}>
+                                    <div id="example-collapse-text">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                        terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+                                        labore wes anderson cred nesciunt sapiente ea proident.
+                                    </div>
+                                </Collapse>
+                            </div>
                         </div>
                     </div>
                     <div>
@@ -16,6 +43,22 @@ export default function Contact() {
                             <div>
                                 <h3 className="contact__title">Email</h3>
                                 <span className='contact__subtitle'>superbrandon2018@gmail.com</span>
+                                <div className='mt-2'>
+                                    <Button
+                                        onClick={() => setEmail(!email)}
+                                        aria-controls="example-collapse-text"
+                                        aria-expanded={email}
+                                    >
+                                        Mas información
+                                    </Button>
+                                    <Collapse in={email}>
+                                        <div id="example-collapse-text">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+                                            labore wes anderson cred nesciunt sapiente ea proident.
+                                        </div>
+                                    </Collapse>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -25,6 +68,22 @@ export default function Contact() {
                             <div>
                                 <h3 className="contact__title">Location</h3>
                                 <span className='contact__subtitle'>CDMX-Av. Villa Franqueza Iztapalapa</span>
+                                <div className='mt-2'>
+                                    <Button
+                                        onClick={() => setLocation(!location)}
+                                        aria-controls="example-collapse-text"
+                                        aria-expanded={location}
+                                    >
+                                        Mas información
+                                    </Button>
+                                    <Collapse in={location}>
+                                        <div id="example-collapse-text">
+                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+                                            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+                                            labore wes anderson cred nesciunt sapiente ea proident.
+                                        </div>
+                                    </Collapse>
+                                </div>
                             </div>
                         </div>
                     </div>

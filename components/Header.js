@@ -41,11 +41,11 @@ export default function Header() {
                     <img src="/Manu.svg" alt="Logo Manu" className=' h-24' />
                 </a>
                 <div className='hidden sm:flex justify-center items-center space-x-4 text-sm px-4'>
-                    <a href="#about"><p className='cursor-pointer'>About</p></a>
-                    <a href="#skills"><p className='cursor-pointer'>Skills</p></a>
-                    <a href="#works"><p className='cursor-pointer'>Works</p></a>
-                    <a href="#contact"><p className='cursor-pointer'>Contact</p></a>
-                    <a href="/galeria"><p className='cursor-pointer'>Galeria</p></a>
+                    <a href="#about" className='link'><p className='cursor-pointer'>About</p></a>
+                    <a href="#skills" className='link'><p className='cursor-pointer'>Skills</p></a>
+                    <a href="#works" className='link'><p className='cursor-pointer'>Works</p></a>
+                    <a href="#contact" className='link'><p className='cursor-pointer'>Contact</p></a>
+                    <a href="/galeria" className='link'><p className='cursor-pointer'>Galeria</p></a>
                 </div>
             </div>
             <AnimatePresence exitBeforeEnter initial={false}>

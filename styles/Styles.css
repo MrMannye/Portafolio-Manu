@@ -26,6 +26,11 @@ html{
     scroll-behavior: smooth;
 }
 
+.link{
+    text-decoration: none;
+    color: black;
+}
+
 .scroll__icon{
     font-size: 2rem;
     margin-right: .75rem;
