@@ -7,7 +7,6 @@ import Works from '../components/Works'
 import Skills from '../components/Skills'
 import About from '../components/About'
 import Contact from '../components/Contact'
-import Project from '../components/Project';
 
 export default function Home() {
 
@@ -55,7 +54,7 @@ export default function Home() {
         <Works />
       </Section>
 
-      <Project/>
+      {/* <Project/> */}
 
       <Section title='Contact' id='contact'>
         <Contact></Contact>
@@ -66,7 +65,6 @@ export default function Home() {
           <i className='uil uil-arrow-up scrollup__icon'></i>
         </a>
       }
-
     </motion.div>
   )
 }

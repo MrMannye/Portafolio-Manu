@@ -26,6 +26,12 @@ html{
     scroll-behavior: smooth;
 }
 
+.scroll__icon{
+    font-size: 2rem;
+    margin-right: .75rem;
+    margin-left: 1rem;
+}
+
 /* ----------ABOUT---------- */
 .about__img{
     width: 350px;
@@ -297,6 +303,7 @@ html{
 .project{
     text-align: center;
     margin: 2rem 0;
+    width: 1000px;
 }
 .project__bg{
     background-color: transparent;
@@ -330,9 +337,7 @@ html{
 
 .project__video{
     position: absolute;
-    left: 0;
-    height: 300px;
-    object-fit: contain;
+    left: 0%;
 }
 
 .project__title,
@@ -466,7 +471,7 @@ input:-webkit-autofill {
     }
     .project__data{
         position: absolute;
-        top: 45%;
+        top: 40%;
         left: 4rem;
         align-items: flex-start;
         margin-right: 3rem;
@@ -475,7 +480,9 @@ input:-webkit-autofill {
 
 
 @media screen and (min-width: 768px){
-    
+    .project__data{
+        top: 45%;
+    }
 }
 
 /* Dispositivos largos */

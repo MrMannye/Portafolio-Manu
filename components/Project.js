@@ -11,10 +11,10 @@ export default function Project() {
                             <i className="uil uil-message project__icon"></i>
                         </a>
                     </div>
-                    <div className='project__video'>
+                </div>
+                <div className='project__video'>
                         <video src="videos/project.mp4" autoPlay loop alt="Imagen Mia" className='project__img' />
                     </div>
-                </div>
             </div>
         </div>
     )

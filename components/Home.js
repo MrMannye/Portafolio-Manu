@@ -25,6 +25,10 @@ function Index() {
                         Mi nombre es Miguel Aguilera y soy un desarrollador Frontend y Backend.
                         Actualmente estoy cursando mi 4to semestre en la Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas
                     </p>
+                    <a href="#about" className='flex items-center justify-center space-x-2 text-white dark:bg-green-400 px-2 rounded-lg w-2/5 bg-blue-900'>
+                        <p className='text-lg font-semibold'>Scroll Down</p>
+                        <i className="uil uil-mouse scroll__icon"></i>
+                    </a>
                 </div>
             </div>
             <div className='sm:flex-1 -mt-20 sm:mt-0 sm:h-2/3 w-full p-12 sm:-ml-14 justify-center items-center'>
