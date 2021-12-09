@@ -14,6 +14,9 @@ export default function galeria() {
                     <img src='img/javascript.jpg'/>
                 </div>
                 <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <img src='img/cryptos.jpg'/>
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12 mt-4'>
                     <img src='img/pjavascript.jpg'/>
                 </div>
                 <div className='col-lg-4 col-md-6 col-sm-12 mt-4'>
@@ -23,7 +26,22 @@ export default function galeria() {
                     <img src='img/rrouter.jpg'/>
                 </div>
                 <div className='col-lg-4 col-md-6 col-sm-12 mt-4'>
-                    <img src='img/cryptos.jpg'/>
+                    <img src='http://drive.google.com/uc?export=view&id=1ryrU5lcQPb8KAHM9hxgVhpXuVyAz_Nnw'/>
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12 mt-4'>
+                    <img src='http://drive.google.com/uc?export=view&id=15oLrEG6KGdogEwk_IvH3OfkWRklEeGFP'/>
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12 mt-4'>
+                    <img src='http://drive.google.com/uc?export=view&id=1-IPykWOCuYVOlzO-5GNhVrmStRh1Fd6a'/>
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12 mt-4'>
+                    <img src='http://drive.google.com/uc?export=view&id=1zSWisTlywsxOucUWykoJHPu3pzmF9YD6'/>
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12 mt-4'>
+                    <img src='http://drive.google.com/uc?export=view&id=1JoBoCOQr4L_mXkxu9zPBPkg91TcJ7CEf'/>
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12 mt-4'>
+                    <img src='http://drive.google.com/uc?export=view&id=1PCMmm6vcAE3pStIpVjDBfZPcSzyjhjUJ'/>
                 </div>
             </div>
         </section>

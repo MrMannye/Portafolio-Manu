@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Collapse, Card, Fade, Button } from "react-bootstrap";
+import { Collapse, Button } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -29,9 +29,8 @@ export default function Contact() {
                                 </Button>
                                 <Collapse in={open}>
                                     <div id="example-collapse-text">
-                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                        terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                                        labore wes anderson cred nesciunt sapiente ea proident.
+                                        Información sobre mi telefono por si gustan contactarme para realizar algun 
+                                        proyecto de manera directa.
                                     </div>
                                 </Collapse>
                             </div>
@@ -53,9 +52,8 @@ export default function Contact() {
                                     </Button>
                                     <Collapse in={email}>
                                         <div id="example-collapse-text">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                                            labore wes anderson cred nesciunt sapiente ea proident.
+                                            Pueden contactarme via gmail teniendo una idea de proyecto y yo la pueda 
+                                            realizar.
                                         </div>
                                     </Collapse>
                                 </div>
@@ -78,9 +76,7 @@ export default function Contact() {
                                     </Button>
                                     <Collapse in={location}>
                                         <div id="example-collapse-text">
-                                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
-                                            terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
-                                            labore wes anderson cred nesciunt sapiente ea proident.
+                                            Contacto directo donde trabajo para realizar proyectos en persona
                                         </div>
                                     </Collapse>
                                 </div>
@@ -112,7 +108,7 @@ export default function Contact() {
 
                     {/* Boton de envio a correo */}
                     <div className='contact__buttons'>
-                        <a href="#" className='contact__button bg-gradient-to-r from-blue-500 to-green-400 button--flex'>
+                        <a href="#" className='contact__button bg-gradient-to-r from-blue-500 to-green-400 button--flex link'>
                             <span>Send Message</span>
                             <i className="uil uil-message contact__button-icon" />
                         </a>

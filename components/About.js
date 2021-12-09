@@ -29,7 +29,7 @@ export default function About() {
                         </div>
                     </div>
                     <div className="about__buttons">
-                        <a href="/CV.pdf" className='about__button bg-gradient-to-r from-blue-500 to-green-400'>
+                        <a href="/CV.pdf" className='about__button bg-gradient-to-r from-blue-500 to-green-400 link'>
                             <div className='about__button-icon'>
                                 <i className="uil uil-download-alt about__icon"></i>
                             </div>

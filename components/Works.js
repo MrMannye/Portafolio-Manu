@@ -21,14 +21,14 @@ export default function Works() {
                             <h3 className='portafolio__title'>Google Clone</h3>
                             <p className='portafolio__description'>El buscador de Google o buscador web de Google (en inglés Google Search) es un motor de búsqueda en la web propiedad y el principal producto de Google.</p>
                             <div className='flex space-x-4 items-center'>
-                                <a href="https://google-clone-mhnecu5mh-mrmannye.vercel.app/" target='_blank' className='button portafolio__button'>
+                                <a href="https://google-clone-mhnecu5mh-mrmannye.vercel.app/" target='_blank' className='button portafolio__button link'>
                                     Demo
                                     <i className='uil uil-arrow-right portafolio__icon'></i>
                                 </a>
                                 <a href="#" data-toggle='popover' title='Pagina en Servidor Firebase' datra-trigger='trigger'
                                     data-content='Hover' className='dark:text-white text-black'
                                 >
-                                    <i class="uil uil-info-circle"></i>
+                                    <i className="uil uil-info-circle"></i>
                                 </a>
                             </div>
                         </div>
@@ -39,14 +39,14 @@ export default function Works() {
                             <h3 className='portafolio__title'>Netflix Clone</h3>
                             <p className='portafolio__description'>Servicio principal es la distribución de contenidos audiovisuales a través de una plataforma en línea o servicio de video bajo demanda por streaming.</p>
                             <div className='flex space-x-4 items-center'>
-                                <a href="#" target='_blank' className='button portafolio__button'>
+                                <a href="#" target='_blank' className='button portafolio__button link'>
                                     Demo
                                     <i className='uil uil-arrow-right portafolio__icon'></i>
                                 </a>
                                 <a href="#" data-toggle='popover' title='Pagina en Servidor Firebase' datra-trigger='trigger'
                                     data-content='Hover' className='dark:text-white text-black'
                                 >
-                                    <i class="uil uil-info-circle"></i>
+                                    <i className="uil uil-info-circle"></i>
                                 </a>
                             </div>
                         </div>
@@ -57,14 +57,14 @@ export default function Works() {
                             <h3 className='portafolio__title'>Hulu Clone</h3>
                             <p className='portafolio__description'>Hulu latino, es un servicio de streaming similar a Netflix, donde el usuario paga una suscripción mensual de US $11,99 para poder acceder a todo el catálogo.</p>
                             <div className='flex space-x-4 items-center'>
-                                <a href="https://hulu-clone-bempa1ga4-mrmannye.vercel.app/" target='_blank' className='button portafolio__button'>
+                                <a href="https://hulu-clone-bempa1ga4-mrmannye.vercel.app/" target='_blank' className='button portafolio__button link'>
                                     Demo
                                     <i className='uil uil-arrow-right portafolio__icon'></i>
                                 </a>
                                 <a href="#" data-toggle='popover' title='Pagina en Servidor Vercel' datra-trigger='trigger'
                                     data-content='Hover' className='dark:text-white text-black'
                                 >
-                                    <i class="uil uil-info-circle"></i>
+                                    <i className="uil uil-info-circle"></i>
                                 </a>
                             </div>
                         </div>
