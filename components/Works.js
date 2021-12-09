@@ -16,7 +16,7 @@ export default function Works() {
             <Swiper cssMode={true} navigation={true} pagination={true} mousewheel={true} className="portafolio__container container swiper">
                 <div className="swiper-wrapper">
                     <SwiperSlide className="portafolio__content grid">
-                        <video src="/videos/video.mp4"  muted={true} loop className='portafolio__img'></video>
+                        <video src="http://drive.google.com/uc?export=view&id=1yndyHaShMraXSZsEgJtEc6TNMR3PJdwB"  muted={true} loop className='portafolio__img'></video>
                         <div className="portafolio__data">
                             <h3 className='portafolio__title'>Google Clone</h3>
                             <p className='portafolio__description'>El buscador de Google o buscador web de Google (en inglés Google Search) es un motor de búsqueda en la web propiedad y el principal producto de Google.</p>
@@ -34,7 +34,7 @@ export default function Works() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="portafolio__content grid">
-                        <video src="/videos/video1.mp4"  muted={true} loop className='portafolio__img'></video>
+                        <video src="http://drive.google.com/uc?export=view&id=1M9fY6-m6B6SDFkY58ZbX75zxWueDzjYn"  muted={true} loop className='portafolio__img'></video>
                         <div className="portafolio__data">
                             <h3 className='portafolio__title'>Netflix Clone</h3>
                             <p className='portafolio__description'>Servicio principal es la distribución de contenidos audiovisuales a través de una plataforma en línea o servicio de video bajo demanda por streaming.</p>
@@ -52,7 +52,7 @@ export default function Works() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="portafolio__content grid">
-                        <video src="/videos/video2.mp4"  muted={true} loop className='portafolio__img'></video>
+                        <video src="http://drive.google.com/uc?export=view&id=12mEclydsFd9A2dxzWxn8cC8-BifJlL-q"  muted={true} loop className='portafolio__img'></video>
                         <div className="portafolio__data">
                             <h3 className='portafolio__title'>Hulu Clone</h3>
                             <p className='portafolio__description'>Hulu latino, es un servicio de streaming similar a Netflix, donde el usuario paga una suscripción mensual de US $11,99 para poder acceder a todo el catálogo.</p>
