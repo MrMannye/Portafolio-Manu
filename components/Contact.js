@@ -65,7 +65,7 @@ export default function Contact() {
                             <i className='uil uil-map-marker contact__icon'></i>
                             <div>
                                 <h3 className="contact__title">Location</h3>
-                                <span className='contact__subtitle'>CDMX-Av. Villa Franqueza Iztapalapa</span>
+                                <adress className='contact__subtitle'>CDMX-Av. Villa Franqueza Iztapalapa</adress>
                                 <div className='mt-2'>
                                     <Button
                                         onClick={() => setLocation(!location)}

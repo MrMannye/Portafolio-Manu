@@ -7,6 +7,7 @@ import Works from '../components/Works'
 import Skills from '../components/Skills'
 import About from '../components/About'
 import Contact from '../components/Contact'
+import SocialBar from '../components/SocialBar'
 
 export default function Home() {
 
@@ -58,6 +59,9 @@ export default function Home() {
       <Section title='Contact' id='contact'>
         <Contact></Contact>
       </Section>
+
+      {/* Social-Bar */}
+      <SocialBar></SocialBar>
 
       {scroll &&
         <a href="#" className='scrollup bg-gradient-to-r from-blue-500 to-green-400 rounded-full p-2 px-3' id='scrollup'>
