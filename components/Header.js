@@ -47,6 +47,12 @@ export default function Header() {
                     <a href="#contact" className='link'><p className='cursor-pointer'>Contact</p></a>
                     <a href="/galeria" className='link'><p className='cursor-pointer'>Galeria</p></a>
                 </div>
+                <div>
+                    <form method="get" action='http://www.google.es/search' target='_blank'>
+                        <input type="search" autoComplete='off' name='q' placeholder='Búsqueda' required/>
+                        <button type='button' className='btn btn-primary'> Buscar </button>
+                    </form>
+                </div>
             </div>
             <AnimatePresence exitBeforeEnter initial={false}>
                 <motion.div

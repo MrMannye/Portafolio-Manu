@@ -1,8 +1,14 @@
-import { AcademicCapIcon } from "@heroicons/react/solid"
+import {useState} from 'react'
 import VoxelDog from "./voxel-dog"
 import {motion} from 'framer-motion'
 
 function Index() {
+
+    const [audio] = useState(typeof Audio !== "undefined" && new Audio("/audio/sonido.mp3"));
+    const autoplay = () => {
+        audio.play();
+    }
+
     return (
         <div className='flex w-screen sm:h-screen sm:-mb-24'>
             <div className='flex-1 items-center justify-center'>
@@ -25,8 +31,9 @@ function Index() {
                         Mi nombre es Miguel Aguilera y soy un desarrollador Frontend y Backend.
                         Actualmente estoy cursando mi 4to semestre en la Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas
                     </p>
-                    <a href="#about" className='hidden xl:flex items-center justify-center space-x-2 text-white dark:bg-green-400 px-2 rounded-lg w-2/5 bg-blue-900 link'>
+                    <a href="#about" onClick={autoplay} className='hidden xl:flex items-center justify-center space-x-2 text-white dark:bg-green-400 px-2 rounded-lg w-2/5 bg-blue-900 link'>
                         <p className='text-lg font-semibold xl:pt-2'>Scroll Down</p>
+                        <audio id="audio-2"></audio>
                         <i className="uil uil-mouse scroll__icon -mt-2"></i>
                     </a>
                 </div>

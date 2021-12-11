@@ -8,6 +8,7 @@ import Skills from '../components/Skills'
 import About from '../components/About'
 import Contact from '../components/Contact'
 import SocialBar from '../components/SocialBar'
+import Frames from '../components/Frames';
 
 export default function Home() {
 
@@ -54,8 +55,10 @@ export default function Home() {
         <Works />
       </Section>
 
-      {/* <Project/> */}
+      {/* Tema Iframes */}
+      <Frames></Frames>
 
+      {/* <Project/> */}
       <Section title='Contact' id='contact'>
         <Contact></Contact>
       </Section>
@@ -63,6 +66,8 @@ export default function Home() {
       {/* Social-Bar */}
       <SocialBar></SocialBar>
 
+
+      {/* Boton Flotante */}
       {scroll &&
         <a href="#" className='scrollup bg-gradient-to-r from-blue-500 to-green-400 rounded-full p-2 px-3' id='scrollup'>
           <i className='uil uil-arrow-up scrollup__icon'></i>
