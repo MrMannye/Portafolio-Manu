@@ -37,6 +37,25 @@ html{
     margin-left: 1rem;
 }
 
+
+/* ----------HEADER---------- */
+
+.google__form{
+    display: flex;
+    justify-content: space-between;
+}
+
+.google__input{
+    border-bottom: 1px solid black;
+    margin-right: 1rem;
+}
+
+
+.google__input:focus{
+    outline: none;
+}
+
+
 /* ----------ABOUT---------- */
 .about__img{
     width: 350px;
@@ -389,6 +408,10 @@ html{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.alert{
+    margin-top: 0.9rem;
 }
 
 .contact__button{
