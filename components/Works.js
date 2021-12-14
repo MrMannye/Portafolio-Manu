@@ -25,7 +25,7 @@ export default function Works() {
                                     Demo
                                     <i className='uil uil-arrow-right portafolio__icon'></i>
                                 </a>
-                                <a href="#" data-toggle='popover' title='Pagina en Servidor Firebase' datra-trigger='trigger'
+                                <a href="#" data-toggle='popover' title='Pagina en Servidor Vercel' datra-trigger='trigger'
                                     data-content='Hover' className='dark:text-white text-black'
                                 >
                                     <i className="uil uil-info-circle"></i>

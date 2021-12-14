@@ -7,10 +7,11 @@ function Index() {
     const [audio] = useState(typeof Audio !== "undefined" && new Audio("/audio/sonido.mp3"));
     const autoplay = () => {
         audio.play();
+        audio.volume = 0.2;
     }
 
     return (
-        <div className='flex w-screen sm:h-screen sm:-mb-24'>
+        <div className='flex flex-col sm:flex-row w-screen sm:h-screen sm:-mb-24'>
             <div className='flex-1 items-center justify-center'>
                 <div className='flex flex-col h-2/3 space-y-4 p-12'>
                     <h2 className='text-3xl font-light'>Hello, My name is</h2>
@@ -28,7 +29,7 @@ function Index() {
                         </motion.div>
                     </div>
                     <p className=' hidden sm:inline-block tracking-wider sm:-mr-64 xl:-mr-0'>
-                        Mi nombre es Miguel Aguilera y soy un desarrollador Frontend y Backend.
+                        Mi nombre es Miguel Aguilera y soy un Desarrollador Frontend y Backend.
                         Actualmente estoy cursando mi 4to semestre en la Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas
                     </p>
                     <a href="#about" onClick={autoplay} className='hidden xl:flex items-center justify-center space-x-2 text-white dark:bg-green-400 px-2 rounded-lg w-2/5 bg-blue-900 link'>

@@ -49,7 +49,7 @@ export default function Header() {
                 </div>
                 <div>
                     <form method="get" action='http://www.google.com/search' target='_blank' className='google__form'>
-                        <input type="search" className='google__input' autoComplete='off' name='q' placeholder='Búsqueda' required/>
+                        <input type="search" className='google__input dark:bg-white' autoComplete='off' name='q' placeholder='Búsqueda' required/>
                         <input type='submit' className='btn btn-primary' value="Google"/>
                     </form>
                 </div>

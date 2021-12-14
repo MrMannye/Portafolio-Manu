@@ -14,7 +14,7 @@ export default function Contact() {
     const [open, setOpen] = useState(false);
     const [email, setEmail] = useState(false);
     const [location, setLocation] = useState(false);
-    const [alert, setAlert] = useState(true);
+    const [alert, setAlert] = useState(false);
 
     const contacto = () => {
         Axios.post(`http://localhost:8080/contacto`, {

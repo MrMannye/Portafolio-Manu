@@ -1,6 +1,6 @@
 export default function Frames() {
     return (
-        <div className="frames d-flex mt-10 container justify-around">
+        <div className="frames flex flex-col sm:flex-row mt-10 container justify-around">
             <div className="frame__facebook">
                 <iframe
                     src="https://www.instagram.com/p/CXTyeFCvlGA/embed"
