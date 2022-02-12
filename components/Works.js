@@ -69,6 +69,42 @@ export default function Works() {
                             </div>
                         </div>
                     </SwiperSlide>
+                    <SwiperSlide className="portafolio__content grid">
+                        <img src='img/portafolio1.jpg'  className='portafolio__img'></img>
+                        <div className="portafolio__data">
+                            <h3 className='portafolio__title'>Uber Clone</h3>
+                            <p className='portafolio__description'>Aplicacion Clone de Uber con las tecnologias de React Native (Navigation, Redux, TailwindCSS y Google) proporciona a sus clientes vehículos de transporte con conductor</p>
+                            <div className='flex space-x-4 items-center'>
+                                <a href="https://uber-mrmannye.vercel.app/" target='_blank' className='button portafolio__button link'>
+                                    Demo
+                                    <i className='uil uil-arrow-right portafolio__icon'></i>
+                                </a>
+                                <a href="#" data-toggle='popover' title='Pagina en Servidor Vercel' datra-trigger='trigger'
+                                    data-content='Hover' className='dark:text-white text-black'
+                                >
+                                    <i className="uil uil-info-circle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </SwiperSlide>
+                    <SwiperSlide className="portafolio__content grid">
+                        <img src='img/portafolio2.jpg'  className='portafolio__img'></img>
+                        <div className="portafolio__data">
+                            <h3 className='portafolio__title'>Spotify Clone</h3>
+                            <p className='portafolio__description'>Pagina Clone de Spotify la cual es una empresa de servicios multimedia, en este proyecto desarrollada con NEXT.JS 12.0 (Middleware, Spotify API, Tailwind, NextAuth, Recoil)</p>
+                            <div className='flex space-x-4 items-center'>
+                                <a href="https://spotify-clone-puce-ten.vercel.app/" target='_blank' className='button portafolio__button link'>
+                                    Demo
+                                    <i className='uil uil-arrow-right portafolio__icon'></i>
+                                </a>
+                                <a href="#" data-toggle='popover' title='Pagina en Servidor Vercel' datra-trigger='trigger'
+                                    data-content='Hover' className='dark:text-white text-black'
+                                >
+                                    <i className="uil uil-info-circle"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </SwiperSlide>
                 </div>
             </Swiper>
         </section>
