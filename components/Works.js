@@ -70,7 +70,7 @@ export default function Works() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="portafolio__content grid">
-                        <img src='img/portafolio1.jpg'  className='portafolio__img'></img>
+                        <img src='img/portfolio1.jpg'  className='portafolio__img'></img>
                         <div className="portafolio__data">
                             <h3 className='portafolio__title'>Uber Clone</h3>
                             <p className='portafolio__description'>Aplicacion Clone de Uber con las tecnologias de React Native (Navigation, Redux, TailwindCSS y Google) proporciona a sus clientes vehículos de transporte con conductor</p>
@@ -88,7 +88,7 @@ export default function Works() {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className="portafolio__content grid">
-                        <img src='img/portafolio2.jpg'  className='portafolio__img'></img>
+                        <img src='img/portfolio2.jpg'  className='portafolio__img'></img>
                         <div className="portafolio__data">
                             <h3 className='portafolio__title'>Spotify Clone</h3>
                             <p className='portafolio__description'>Pagina Clone de Spotify la cual es una empresa de servicios multimedia, en este proyecto desarrollada con NEXT.JS 12.0 (Middleware, Spotify API, Tailwind, NextAuth, Recoil)</p>
