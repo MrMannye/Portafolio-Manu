@@ -8,6 +8,15 @@ export default function galeria() {
             </div>
             <div className='row'>
                 <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <img src='http://drive.google.com/uc?export=view&id=1si4363nDXZqmYEU5cpxgX7IUdLfRvxw5'/>
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <img src='http://drive.google.com/uc?export=view&id=1QM_U0otgEY_5jOX0sl5iiRgXy3fMlCiT'/>
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12'>
+                    <img src='http://drive.google.com/uc?export=view&id=1J3qV_yyMWnG43sWNVkWhKERq-X4YVp-5'/>
+                </div>
+                <div className='col-lg-4 col-md-6 col-sm-12'>
                     <img src='img/freact.jpg'/>
                 </div>
                 <div className='col-lg-4 col-md-6 col-sm-12'>

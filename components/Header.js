@@ -2,6 +2,7 @@ import { MoonIcon, SunIcon } from '@heroicons/react/solid'
 import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes';
 import { AnimatePresence, motion } from 'framer-motion';
+import Link from 'next/link'
 
 export default function Header() {
 
@@ -37,15 +38,15 @@ export default function Header() {
     return (
         <div className='flex justify-between z-50 items-center px-3 sticky top-0 dark:bg-black bg-white'>
             <div className='flex justify-center items-center space-x-4 text-sm'>
-                <a href="/">
+                <Link href="/">
                     <img src="/Manu.svg" alt="Logo Manu" className=' h-24' />
-                </a>
+                </Link>
                 <div className='hidden sm:flex justify-center items-center space-x-4 text-sm px-4'>
                     <a href="#about" className='link'><p className='cursor-pointer'>About</p></a>
                     <a href="#skills" className='link'><p className='cursor-pointer'>Skills</p></a>
                     <a href="#works" className='link'><p className='cursor-pointer'>Works</p></a>
                     <a href="#contact" className='link'><p className='cursor-pointer'>Contact</p></a>
-                    <a href="/galeria" className='link'><p className='cursor-pointer'>Galeria</p></a>
+                    <Link href="/galeria" className='link'><p className='cursor-pointer'>Galeria</p></Link>
                 </div>
                 <div>
                     <form method="get" action='http://www.google.com/search' target='_blank' className='google__form'>
