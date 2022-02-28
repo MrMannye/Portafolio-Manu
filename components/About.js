@@ -11,12 +11,12 @@ export default function About() {
                 
                 <div className='about__data'>
                     <p className='about__description'>
-                        Web Developer for 3 years, with extensive knowledge and years of experencie, working
+                        Web Developer for 2 years, with extensive knowledge and years of experencie, working
                         in web Technologies, and UI / UX design, delivering quality work. Currently working as a frontend developer for Soft Shimpony.
                     </p>
                     <div className='about__info'>
                         <div>
-                            <span className='about__info-title'>03+</span>
+                            <span className='about__info-title'>02+</span>
                             <span className='about__info-name'>Years <br /> experience</span>
                         </div>
                         <div>
