@@ -34,7 +34,7 @@ export default function Home() {
         <title>Portafolio Manu</title>
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"></link>
-        <meta name="image" property='og:image' content="/code.jpeg" />
+        <meta property='og:image' content="/about.jpg" />
       </Head>
       <div className='flex flex-col justify-center items-center ml-10 sm:mt-8'>
         <Index></Index>
