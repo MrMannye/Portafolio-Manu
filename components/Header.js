@@ -46,7 +46,7 @@ export default function Header() {
                     <a href="#skills" className='link'><p className='cursor-pointer'>Skills</p></a>
                     <a href="#works" className='link'><p className='cursor-pointer'>Works</p></a>
                     <a href="#contact" className='link'><p className='cursor-pointer'>Contact</p></a>
-                    <Link href="/galeria" className='link'><p className='cursor-pointer'>Galeria</p></Link>
+                    <Link href="/galeria" className='link dark:text-black'><p className='cursor-pointer'>Galeria</p></Link>
                 </div>
                 <div>
                     <form method="get" action='http://www.google.com/search' target='_blank' className='google__form'>
