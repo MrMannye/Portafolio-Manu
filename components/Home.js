@@ -30,7 +30,7 @@ function Index() {
                     </div>
                     <p className=' hidden sm:inline-block tracking-wider sm:-mr-64 xl:-mr-0'>
                         Mi nombre es Miguel Aguilera y soy un Desarrollador Frontend y Backend.
-                        Actualmente estoy cursando mi 4to semestre en la Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas
+                        Actualmente estoy cursando mi 6to semestre en la Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas
                     </p>
                     <a href="#about" onClick={autoplay} className='hidden xl:flex items-center justify-center space-x-2 text-white dark:bg-green-400 px-2 rounded-lg w-2/5 bg-blue-900 link'>
                         <p className='text-lg font-semibold xl:pt-2'>Scroll Down</p>

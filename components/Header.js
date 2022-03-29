@@ -36,21 +36,21 @@ export default function Header() {
     }
 
     return (
-        <div className='flex justify-between z-50 items-center px-3 sticky top-0 dark:bg-black bg-white'>
+        <div className='flex justify-between z-50 items-center px-3 sticky top-0 dark:bg-black'>
             <div className='flex justify-center items-center space-x-4 text-sm'>
                 <Link href="/">
-                    <img src="/Manu.svg" alt="Logo Manu" className=' h-24' />
+                    <img src="/Manu.svg" alt="Logo Manu" className=' h-24 cursor-pointer' />
                 </Link>
                 <div className='hidden sm:flex justify-center items-center space-x-4 text-sm px-4'>
-                    <a href="#about" className='link'><p className='cursor-pointer'>About</p></a>
-                    <a href="#skills" className='link'><p className='cursor-pointer'>Skills</p></a>
-                    <a href="#works" className='link'><p className='cursor-pointer'>Works</p></a>
-                    <a href="#contact" className='link'><p className='cursor-pointer'>Contact</p></a>
-                    <Link href="/galeria" className='link dark:text-black'><p className='cursor-pointer'>Galeria</p></Link>
+                    <Link href="/#about" className='link'><p className='cursor-pointer'>About</p></Link>
+                    <Link href="/#skills" className='link'><p className='cursor-pointer'>Skills</p></Link>
+                    <Link href="/#works" className='link'><p className='cursor-pointer'>Works</p></Link>
+                    <Link href="/#contact" className='link'><p className='cursor-pointer'>Contact</p></Link>
+                    <Link href="/galeria" className='link'><p className='cursor-pointer'>Galeria</p></Link>
                 </div>
-                <div>
+                <div className='dark:hidden'>
                     <form method="get" action='http://www.google.com/search' target='_blank' className='google__form'>
-                        <input type="search" className='google__input dark:bg-white' autoComplete='off' name='q' placeholder='Búsqueda' required/>
+                        <input type="search" className='google__input dark:bg-black' autoComplete='off' name='q' placeholder='Búsqueda' required/>
                         <input type='submit' className='btn btn-primary' value="Google"/>
                     </form>
                 </div>

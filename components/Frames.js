@@ -15,6 +15,7 @@ export default function Frames() {
                     scrolling='no'
                     frameBorder='0'
                     allow='encrypted-media'
+                    className="rounded-xl"
                 />
             </div>
             <div className="frame__instagram">
@@ -31,6 +32,7 @@ export default function Frames() {
                     scrolling='no'
                     frameBorder='0'
                     allow='encrypted-media'
+                    className="rounded-xl"
                 />
             </div>
         </div>
